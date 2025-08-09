@@ -1,0 +1,58 @@
+{
+  "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "indentRainbow.indicatorStyle": "light",
+  "cSpell.language": "en, ru",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "telemetry.telemetryLevel": "off",
+  "terminal.external.linuxExec": "kitty",
+  "terminal.explorerKind": "both",
+  "terminal.sourceControlRepositoriesKind": "both",
+  "vim.handleKeys": {
+    "<C-f>": false
+  },
+  "window.customTitleBarVisibility": "never",
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "native",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+  },
+  "workbench.startupEditor": "none",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.rulers": [88],
+  "tailwindCSS.classFunctions": ["clsx", "cva", "cn"],
+  "tailwindCSS.colorDecorators": false,
+}

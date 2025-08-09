@@ -1,0 +1,44 @@
+{
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React, { ReactElement } from 'react';",
+      "",
+      "export interface ${1:${TM_FILENAME_BASE}}Props {",
+      "  $2",
+      "}",
+      "",
+      "function ${1:${TM_FILENAME_BASE}}(props: ${1:${TM_FILENAME_BASE}}Props): ReactElement {",
+      "  return (",
+      "    $0",
+      "  );",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ]
+  },
+  "TailwindCSS React Component": {
+    "prefix": "trc",
+    "body": [
+      "import React, { forwardRef } from 'react';",
+      "import { cva, VariantProps } from 'class-variance-authority';",
+      "",
+      "export const ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/downcase}${2}/}}Variants = cva([], {",
+      "  variants: {",
+      "    ",
+      "  },",
+      "});",
+      "",
+      "export interface ${2:${TM_FILENAME_BASE}}Props extends VariantProps<typeof ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/downcase}${2}/}}Variants>$3 {",
+      "  $4",
+      "}",
+      "",
+      "const ${2:${TM_FILENAME_BASE}} = forwardRef<$5, ${2:${TM_FILENAME_BASE}}Props>((props, ref) => {",
+      "  return $0;",
+      "});",
+      "${2:${TM_FILENAME_BASE}}.displayName = '${2:${TM_FILENAME_BASE}}';",
+      "",
+      "export default ${2:${TM_FILENAME_BASE}};"
+    ]
+  }
+}
