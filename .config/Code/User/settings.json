@@ -2,6 +2,7 @@
   "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
   "editor.fontSize": 14,
   "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "trailing",
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
   },
@@ -22,6 +23,7 @@
   "window.titleBarStyle": "native",
   "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[css]": {
     "editor.tabSize": 2
