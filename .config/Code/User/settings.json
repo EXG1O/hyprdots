@@ -3,6 +3,8 @@
   "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "trailing",
+  "editor.rulers": [88],
+  "diffEditor.ignoreTrimWhitespace": false,
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
   },
@@ -15,6 +17,8 @@
   "terminal.external.linuxExec": "kitty",
   "terminal.explorerKind": "both",
   "terminal.sourceControlRepositoriesKind": "both",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.stickyScroll.enabled": false,
   "vim.handleKeys": {
     "<C-f>": false
   },
@@ -24,6 +28,7 @@
   "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.startupEditor": "none",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[css]": {
     "editor.tabSize": 2
@@ -52,9 +57,6 @@
   "[typescriptreact]": {
     "editor.tabSize": 2,
   },
-  "workbench.startupEditor": "none",
-  "terminal.integrated.cursorStyle": "line",
-  "editor.rulers": [88],
   "tailwindCSS.classFunctions": ["clsx", "cva", "cn"],
   "tailwindCSS.colorDecorators": false,
 }
