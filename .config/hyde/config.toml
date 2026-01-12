@@ -2,3 +2,7 @@
 
 [hyprland]
 cursor_size = 20
+
+[hyprland-start]
+apptray_bluetooth=""
+battery_notify=""
