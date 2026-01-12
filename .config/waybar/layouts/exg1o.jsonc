@@ -15,7 +15,7 @@
   "modules-left": ["group/pill#left1", "group/pill#left2", "group/pill#left3"],
   "group/pill#left1": {
     "orientation": "inherit",
-    "modules": ["cpu", "memory", "custom/cpuinfo", "custom/gpuinfo#amd"]
+    "modules": ["cpu", "memory", "custom/cpuinfo", "custom/gpuinfo"]
   },
   "group/pill#left2": {
     "orientation": "inherit",
