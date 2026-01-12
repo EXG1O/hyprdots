@@ -1,6 +1,6 @@
 {
   "pulseaudio": {
-    "format": "{icon} {volume}%",
+    "format": "{icon}  {volume}%",
     "rotate": 0,
     "format-muted": "婢 {volume}%",
     "on-click": "pavucontrol -t 3",
@@ -17,7 +17,7 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", " "]
+      "default": ["", "", ""]
     }
   }
 }
