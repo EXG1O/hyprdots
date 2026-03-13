@@ -19,6 +19,7 @@
   "terminal.sourceControlRepositoriesKind": "both",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.enablePersistentSessions": false,
   "vim.handleKeys": {
     "<C-f>": false
   },
