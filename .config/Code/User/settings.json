@@ -26,7 +26,7 @@
   "window.customTitleBarVisibility": "never",
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "native",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Dark+",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.startupEditor": "none",
@@ -60,4 +60,5 @@
   },
   "tailwindCSS.classFunctions": ["clsx", "cva", "cn"],
   "tailwindCSS.colorDecorators": false,
+  "chat.disableAIFeatures": true,
 }
