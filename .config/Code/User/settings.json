@@ -1,6 +1,5 @@
 {
   "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
-  "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "trailing",
   "editor.rulers": [88],
@@ -24,7 +23,7 @@
     "<C-f>": false
   },
   "window.customTitleBarVisibility": "never",
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "hidden",
   "window.titleBarStyle": "native",
   "workbench.colorTheme": "Dark+",
   "workbench.iconTheme": "material-icon-theme",
@@ -60,5 +59,11 @@
   },
   "tailwindCSS.classFunctions": ["clsx", "cva", "cn"],
   "tailwindCSS.colorDecorators": false,
-  "chat.disableAIFeatures": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "chat.viewSessions.orientation": "stacked",
 }
