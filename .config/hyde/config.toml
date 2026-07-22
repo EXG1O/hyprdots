@@ -1,7 +1,7 @@
 "$schema" = "https://raw.githubusercontent.com/HyDE-Project/HyDE/refs/heads/master/Configs/.local/share/hyde/schema/config.toml.json"
 
 [hyprland-start]
-apptray_bluetooth = ""
+applet_bluetooth = ""
 battery_notify = ""
 
 [notification]
