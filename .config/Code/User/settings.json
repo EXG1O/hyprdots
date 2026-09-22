@@ -9,6 +9,10 @@
   },
   "indentRainbow.indicatorStyle": "light",
   "cSpell.language": "en, ru",
+  "cSpell.userWords": [
+    "Рандомайзер",
+    "рандомайзера"
+  ],
   "security.workspace.trust.enabled": false,
   "security.workspace.trust.startupPrompt": "never",
   "security.workspace.trust.untrustedFiles": "newWindow",
@@ -19,6 +23,7 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.enablePersistentSessions": false,
+  "python.terminal.activateEnvironment": false,
   "vim.handleKeys": {
     "<C-f>": false
   },
@@ -65,4 +70,6 @@
     "markdown": false,
     "scminput": false
   },
+  "chat.viewSessions.orientation": "stacked",
+  "mypy-type-checker.importStrategy": "fromEnvironment",
 }
