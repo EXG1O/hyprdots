@@ -34,6 +34,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.startupEditor": "none",
+  "workbench.experimental.modernUIEditorTabStyle": "pill",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[css]": {
     "editor.tabSize": 2
