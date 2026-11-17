@@ -4,6 +4,9 @@
   "editor.renderWhitespace": "trailing",
   "editor.rulers": [88],
   "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
   },
@@ -71,6 +74,6 @@
     "markdown": false,
     "scminput": false
   },
-  "chat.viewSessions.orientation": "stacked",
   "mypy-type-checker.importStrategy": "fromEnvironment",
+  "chat.viewSessions.orientation": "stacked",
 }
